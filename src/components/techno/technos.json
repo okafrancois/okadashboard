@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_techno_technos",
+  "info": {
+    "displayName": "Technos",
+    "icon": "keyboard"
+  },
+  "options": {},
+  "attributes": {
+    "Technos": {
+      "type": "enumeration",
+      "enum": [
+        "Html"
+      ]
+    }
+  }
+}

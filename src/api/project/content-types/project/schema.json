@@ -1,0 +1,50 @@
+{
+  "kind": "collectionType",
+  "collectionName": "projects",
+  "info": {
+    "singularName": "project",
+    "pluralName": "projects",
+    "displayName": "project"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "Roles": {
+      "type": "enumeration",
+      "enum": [
+        "UX-UI Designer",
+        "Front-end Developer",
+        "Wordpress Developer",
+        "Full Stack developer"
+      ]
+    },
+    "Technos": {
+      "type": "text"
+    },
+    "Client": {
+      "type": "string"
+    },
+    "Link": {
+      "type": "string"
+    },
+    "Github": {
+      "type": "string"
+    },
+    "cover": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
