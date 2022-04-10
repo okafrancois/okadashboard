@@ -94,6 +94,21 @@ logs
 results
 node_modules
 .node_history
+/config
+/database
+/public
+/src
+/build
+/.editorconfig
+/.env
+/.env.example
+/.eslintignore
+/.eslintrc
+/favicon.ico
+/.strapi-updater.json
+/package-lock.json
+/README.md
+/yarn.lock
 
 ############################
 # Tests
